@@ -1,6 +1,6 @@
 # Table of Contents
 
--   [Dataset Preparation and Training](#dataset-preparation)
+-   [Dataset Preparation and Training](#dataset-preparation-and-training)
 
 #### Task 1 - SRCNN and SRResNet
 
@@ -32,7 +32,9 @@ The images were randomly cropped to size `196x196`. This gave the ground truth i
 These ground images were blurred using gaussian blur, and downsampled to size `96x96`.\
 Finally, the downsampled images were upsampled using bicubic interpolation to size `196x196`.
 
-Dataset size: `3000 images`\
+[Link to the Dataset](https://drive.google.com/drive/folders/1-612nU5UY8UaSFAfdGTqnZcUTBt1sosg?usp=sharing)\
+Dataset size used for training: `3000 images`
+
 Training was done with an early stopping callback, with the model finally using the weights of the best performing epoch.\
 The saved models and their weights have been provided. The code to load them is given in the `srcnn.ipynb`/`srresnet.ipynb` files.
 
