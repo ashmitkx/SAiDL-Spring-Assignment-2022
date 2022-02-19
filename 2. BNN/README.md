@@ -36,7 +36,8 @@ Sampling was done with a burn in accuracy of `87.5%`, and a patience of `8000 at
 
 ### Test Accuracy with Metropolis-Hastings
 
-<image src='./readme-images/test-results-mcmc.jpg' alt='mcmc test results'/>
+<image src='./readme-images/test-results-mcmc.jpg' alt='mcmc test results'/>\
+Teal/green denote points where the MLP has a low confidence in its prediction.
 
 Average standard deviation across all data points: `0.1069`\
 Average accuracy: `92.85 %`\
@@ -44,7 +45,8 @@ Accuracy stdev: `3.4613 %`
 
 ### Comparison with Random Sampler
 
-<image src='./readme-images/test-results-random.jpg' alt='random sampler test results'/>
+<image src='./readme-images/test-results-random.jpg' alt='random sampler test results'/>\
+Teal/green denote points where the MLP has a low confidence in its prediction.
 
 Average standard deviation across all data points: `0.238`\
 Average accuracy: `53.15 %`\

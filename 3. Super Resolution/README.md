@@ -55,7 +55,7 @@ metric: `PSNR`\
 Total trainable params: `63,875`
 
 <details>
-    <summary>View model graph</summary>
+    <summary><b>View model graph</b></summary>
     <img src='SRCNN/model graph.jpg' alt=' model graph'/>
 </details>
 
@@ -78,14 +78,14 @@ Avg Test PSNR: `25.9 dB`
 ## Image Comparison
 
 <details>
-    <summary>Show Images where the model performed better than traditional upscaling</summary>
+    <summary><b>Show Images where the model performed better than traditional upscaling</b></summary>
     <image src='SRCNN/image-comparison/cat_better.jpg' alt='cat_better'>
     <image src='SRCNN/image-comparison/cat_better2.jpg' alt='cat_better2'>
     <image src='SRCNN/image-comparison/dog_better.jpg' alt='dog_better'>
 </details>
 
 <details>
-    <summary>Show Image where the model performed worse than traditional upscaling</summary>
+    <summary><b>Show Image where the model performed worse than traditional upscaling</b></summary>
     <image src='SRCNN/image-comparison/dog_worse.jpg' alt='dog_worse'>
     This is likely the result of the image being noisy, due to the pet's fur.
 </details>
@@ -116,7 +116,7 @@ metric: `PSNR`\
 Total trainable params: `78,819`
 
 <details>
-    <summary>View model graph</summary>
+    <summary><b>View model graph</b></summary>
     <img src='SRResNet/model graph.jpg' alt=' model graph'/>
 </details>
 
@@ -141,13 +141,13 @@ This is similar to the SRCNN.
 ## Image Comparison
 
 <details>
-    <summary>Show Images where the model performed better than traditional upscaling</summary>
+    <summary><b>Show Images where the model performed better than traditional upscaling</b></summary>
     <image src='SRResNet/image-comparison/dog_better.jpg' alt='dog_better'>
     <image src='SRResNet/image-comparison/dog_better2.jpg' alt='dog_better2'>
 </details>
 
 <details>
-    <summary>Show Image where the model performed worse than traditional upscaling</summary>
+    <summary><b>Show Image where the model performed worse than traditional upscaling</b></summary>
     <image src='SRResNet/image-comparison/cat_worse.jpg' alt='cat_worse'>
     Again, this is likely due to the image mainly consisting of noisy fur.
 </details>
@@ -175,7 +175,7 @@ metric: `PSNR`\
 Total trainable params: `232,675`
 
 <details>
-    <summary>View model graph</summary>
+    <summary><b>View model graph</b></summary>
     <img src='SRCNN-TransConv/model graph.jpg' alt=' model graph'/>
 </details>
 
@@ -199,7 +199,7 @@ Despite this, the images produced by the model look much better than nearest nei
 ## Image Comparison
 
 <details>
-    <summary>Show Images</summary>
+    <summary><b>Show Images</b></summary>
     <image src='SRCNN-TransConv/image-comparison/cat.jpg' alt='cat'>
     <image src='SRCNN-TransConv/image-comparison/dog.jpg' alt='dog'>
     <image src='SRCNN-TransConv/image-comparison/dog2.jpg' alt='dog2'>
@@ -228,7 +228,7 @@ metric: `PSNR`\
 Total trainable params: `214,892`
 
 <details>
-    <summary>View model graph</summary>
+    <summary><b>View model graph</b></summary>
     <img src='SRCNN-SubPixel/model graph.jpg' alt=' model graph'/>
 </details>
 
@@ -253,7 +253,7 @@ Yet again, the images produced by the model look much better than nearest neighb
 ## Image Comparison
 
 <details>
-    <summary>Show Images</summary>
+    <summary><b>Show Images</b></summary>
     <image src='SRCNN-SubPixel/image-comparison/cat.jpg' alt='cat'>
     <image src='SRCNN-SubPixel/image-comparison/dog.jpg' alt='dog'>
     <image src='SRCNN-SubPixel/image-comparison/dog2.jpg' alt='dog2'>
@@ -299,7 +299,7 @@ Total trainable params: `128,192`
 This model architecture is similar to the one given in [An Evolution in Single Image Super Resolution using Deep Learning](https://towardsdatascience.com/an-evolution-in-single-image-super-resolution-using-deep-learning-66f0adfb2d6b#6cb9).
 
 <details>
-    <summary>View model graph</summary>
+    <summary><b>View model graph</b></summary>
     <img src='SRResNet-SubPixel/model graph.jpg' alt=' model graph'/>
 </details>
 
@@ -323,13 +323,13 @@ This is a good improvement over the SRCNN with sub-pixel convolution, which itse
 ## Image Comparison
 
 <details>
-    <summary>Show Images where the model performed better than traditional upscaling</summary>
+    <summary><b>Show Images where the model performed better than traditional upscaling</b></summary>
     <image src='SRResNet-SubPixel/image-comparison/cat_better.jpg' alt='cat_better'>
     <image src='SRResNet-SubPixel/image-comparison/cat_better2.jpg' alt='cat_better2'>
 </details>
 
 <details>
-    <summary>Show Image where the model performed worse than traditional upscaling</summary>
+    <summary><b>Show Image where the model performed worse than traditional upscaling</b></summary>
     <image src='SRResNet-SubPixel/image-comparison/cat_worse.jpg' alt='cat_worse'>
     <image src='SRResNet-SubPixel/image-comparison/cat_worse2.jpg' alt='cat_worse2'>
 </details>
@@ -387,7 +387,7 @@ metric: `PSNR`\
 Total trainable params: `55,683`
 
 <details>
-    <summary>View model graph</summary>
+    <summary><b>View model graph</b></summary>
     <img src='SRResNet-Shallow/model graph.jpg' alt=' model graph'/>
 </details>
 
@@ -436,7 +436,7 @@ metric: `PSNR`\
 Total trainable params: `69,276`
 
 <details>
-    <summary>View model graph</summary>
+    <summary><b>View model graph</b></summary>
     <img src='SRCNN-SubPixel-Thin/model graph.jpg' alt=' model graph'/>
 </details>
 
